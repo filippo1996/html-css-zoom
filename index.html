@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Zoom</title>
 </head>
-<body class="debug">
+<body>
     <!-- intestazione pagina -->
     <header class="header header--clearfix">
         <!-- contenuto logo -->
@@ -139,12 +139,132 @@
                 <img class="card__img" src="https://picsum.photos/id/237/400/150" alt="utente">
                 <span class="card__microphone"><i class="fas fa-microphone-slash"></i> Pinco Pallo</span>
             </div>
+            <div class="card__content">
+                <img class="card__img" src="https://picsum.photos/id/237/400/150" alt="utente">
+                <span class="card__microphone"><i class="fas fa-microphone-slash"></i> Pinco Pallo</span>
+            </div>
+            <div class="card__content">
+                <img class="card__img" src="https://picsum.photos/id/237/400/150" alt="utente">
+                <span class="card__microphone"><i class="fas fa-microphone-slash"></i> Pinco Pallo</span>
+            </div>
+            <div class="card__content">
+                <img class="card__img" src="https://picsum.photos/id/237/400/150" alt="utente">
+                <span class="card__microphone"><i class="fas fa-microphone-slash"></i> Pinco Pallo</span>
+            </div>
+            <div class="card__content">
+                <img class="card__img" src="https://picsum.photos/id/237/400/150" alt="utente">
+                <span class="card__microphone"><i class="fas fa-microphone-slash"></i> Pinco Pallo</span>
+            </div>
+            <div class="card__content">
+                <img class="card__img" src="https://picsum.photos/id/237/400/150" alt="utente">
+                <span class="card__microphone"><i class="fas fa-microphone-slash"></i> Pinco Pallo</span>
+            </div>
         </section>
         <!-- fine sezione delle cards video call -->
 
         <!-- sezione barra di comando -->
         <section class="command-bar">
-            
+            <!-- row sx -->
+            <div class="command-bar__col">
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-microphone"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Mute</span>
+                    </div>
+                    <span class="command-bar__ico-arrow-top"></span>
+                </div>
+
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-video"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Stop Video</span>
+                    </div>
+                    <span class="command-bar__ico-arrow-top"></span>
+                </div>
+            </div>
+            <!-- end row sx -->
+
+            <!-- row central -->
+            <div class="command-bar__col-center">
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-user-plus"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Invite</span>
+                    </div>
+                </div>
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-user-friends"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Manage Participants</span>
+                    </div>
+                </div>
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-chart-bar"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Polling</span>
+                    </div>
+                </div>
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn command-bar__ico-btn--modify">
+                            <i class="fas fa-share-square"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Share Screen</span>
+                    </div>
+                    <span class="command-bar__ico-arrow-top"></span>
+                </div>
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-comment"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Chat</span>
+                    </div>
+                </div>
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-record-vinyl"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Record</span>
+                    </div>
+                </div>
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-th-large"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">Breakout Rooms</span>
+                    </div>
+                </div>
+                <div class="command-bar__content">
+                    <div class="command-bar__item">
+                        <button class="command-bar__ico-btn">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </button>
+                        <span class="command-bar__txt-ico">More</span>
+                    </div>
+                </div>
+            </div>
+            <!-- end row central -->
+
+            <!-- row dx -->
+            <div class="command-bar__col command-bar__col--justify-end">
+                <div class="command-bar__content command-bar__content--background">
+                    <button class="command-bar__ico-btn command-bar__ico-btn--end-meeating">End Meeting</button>
+                </div>
+            </div>
+            <!-- end row dx -->
         </section>
         <!-- fine sezione barra di comando -->
     </main>
