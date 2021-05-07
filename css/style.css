@@ -1,0 +1,67 @@
+.header{
+    height: 50px;
+}
+
+.header--clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header__content{
+    width: 15%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header__content--float-left{
+    float: left;
+}
+
+.header__content--float-right{
+    float: right;
+}
+
+.header__logo{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+}
+
+.header__btn{
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.header__btn--active{
+    background: white;
+    color: black;
+    cursor: default;
+}
+
+.header__btn--expand-width{
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+.debug .header{
+    background-color: red;
+}
+
+.debug .header__content{
+    background-color: green;
+}
